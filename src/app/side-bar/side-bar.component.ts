@@ -24,5 +24,13 @@ export class SideBarComponent implements OnInit {
     },
   ];
 
+  public makeRoute(link: LinkModel): void {
+    if (link.outsideLink) {
+      window.open(link.link, '_blank');
+    } else {
+      this.router.navigate([link.link]);
+    }
+  }
+
   ngOnInit(): void {}
 }

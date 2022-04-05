@@ -1,6 +1,6 @@
 <div class="side-bar">
     <span class="side-bar-link" *ngFor="let link of links">
-        <a class="side-bar-link__a" [pTooltip]="link.name" tooltipPosition="top"  [routerLink]="[link.link]">
+        <a class="side-bar-link__a" [pTooltip]="link.name" tooltipPosition="top" (click)="makeRoute(link)">
             <i class="pi" [ngClass]="link.icon"></i>
         </a>
     </span>

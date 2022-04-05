@@ -7,9 +7,12 @@ import { MainNavComponent } from './main-nav/main-nav.component';
 import { HomeComponent } from './home/home.component';
 import { SideBarComponent } from './side-bar/side-bar.component';
 import { TooltipModule } from 'primeng/tooltip';
+import { ContactComponent } from './contact/contact.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
-  declarations: [AppComponent, MainNavComponent, HomeComponent, SideBarComponent],
+  declarations: [AppComponent, MainNavComponent, HomeComponent, SideBarComponent, ContactComponent, ProjectsComponent, NotFoundComponent],
   imports: [BrowserModule, TooltipModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
