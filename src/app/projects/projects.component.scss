@@ -3,14 +3,14 @@
 
 @media only screen and (min-width: 1200px) {
     .item {
-        height: 500px !important;
+        min-height: 500px !important;
         width: 500px !important;
         &__p {
             font-size: 35px !important;
         }
         &__a {
             width: 200px !important;
-            height: 60px !important;
+            min-height: 60px !important;
             font-size: 20px !important;
         }
     }
@@ -18,7 +18,7 @@
 
 @media only screen and (max-width: 750px) {
     .item {
-        height: 400px !important;
+        min-height: 400px !important;
         max-width: 400px !important;
         margin: 5px 0px 0px 0px !important;
         width: calc(100vw - 100px) !important;
@@ -33,10 +33,11 @@
 
     .item {
         margin: 10px;
-        height: 300px;
+        min-height: 300px;
         width: 300px;
         background: transparent;
-        border: 1px solid $text-1;
+        border: 2px solid $text-1;
+        border-radius: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
