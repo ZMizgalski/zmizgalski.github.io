@@ -1,0 +1,118 @@
+@import '../styles/colors.scss';
+
+@media only screen and (max-width: 700px) {
+    .item {
+        height: 200px !important;
+        width: 200px !important;
+        &__p {
+            font-size: 10px !important;
+        }
+        &__a {
+            width: 120px !important;
+            height: 25px !important;
+            font-size: 6px !important;
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .item {
+        height: 350px !important;
+        width: 350px !important;
+        &__p {
+            font-size: 15px !important;
+        }
+        &__a {
+            width: 170px !important;
+            height: 50px !important;
+            font-size: 15px !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .item {
+        height: 150px !important;
+        width: 150px !important;
+        &__p {
+            font-size: 5px !important;
+        }
+        &__a {
+            width: 100px !important; 
+            height: 20px !important;
+            font-size: 5px !important;
+        }
+    }
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .item {
+        margin: 10px;
+        height: 300px;
+        width: 300px;
+        background: transparent;
+        border: 1px solid $text-1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        &__p {
+            color: white;
+            font-size: 15px;
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+            word-wrap: break-word;
+        }
+
+        &__a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 150px;
+            height: 30px;
+            line-height: 40px;
+            font-size: 10px;
+            font-family: sans-serif;
+            text-decoration: none;
+            color: white;
+            border: 2px solid white;
+            letter-spacing: 2px;
+            text-align: center;
+            position: relative;
+            transition: all .35s;
+
+            &-span {
+                position: relative;
+                z-index: 2;
+            }
+
+        }
+
+        &__a:after{
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 100%;
+            background: $text-1;
+            transition: all .35s;
+        }
+          
+        &__a:hover{
+            color: $text-2;
+        }
+          
+        &__a:hover:after{
+            width: 100%;
+        }
+    }
+
+}

@@ -1,1 +1,8 @@
-<p>projects works!</p>
+<div class="projects-container">
+    <div *ngFor="let project of projects" class="item">
+        <p class="item__p">{{project.name}}</p>
+        <a class="item__a" target="_blank" [href]="project.link">
+            <span class="item__a-span">View Project</span>
+        </a>
+    </div>
+</div>

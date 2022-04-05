@@ -9,6 +9,7 @@ import { SideBarComponent } from './side-bar/side-bar.component';
 import { TooltipModule } from 'primeng/tooltip';
 import { ProjectsComponent } from './projects/projects.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { LoaderComponent } from './loader/loader.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
     SideBarComponent,
     ProjectsComponent,
     NotFoundComponent,
+    LoaderComponent,
   ],
   imports: [BrowserModule, TooltipModule, AppRoutingModule],
   providers: [],

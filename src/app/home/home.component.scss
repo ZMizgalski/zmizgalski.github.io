@@ -5,8 +5,13 @@
 }
 .home-container {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../../assets/images/bg3.png);
+    align-items: baseline;
+    min-height: 100vh;
+    justify-content: center;
     margin-left: 10%;
     flex-direction: column;
     align-content: center;
@@ -24,27 +29,45 @@
     }
 }
 
-.email-container {
-    appearance:none;
-    padding:10px;
-    pointer-events: all;
-    border:none;
-    background-color: $text-1;
-    color:#fff;
-    font-weight:600;
-    border-radius:5px;
-    &__a {
-        pointer-events: all;
-        text-decoration: none;
-        transition: .5s cubic-bezier(0.79, 0.16, 0.4, 1.17);
-        color: white;
-    }
-    
-}
+.email-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
 
-.email-container {
-    &__a:hover {
-        color: black;
+    &__content {
+        position: relative;
+        z-index: 2;
     }
-}
+  }
+  
+  .email-container:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: $text-1;
+    transition: all .35s;
+  }
+  
+  .email-container:hover{
+    color: $text-2;
+  }
+  
+  .email-container:hover:after{
+    width: 100%;
+  }
     
