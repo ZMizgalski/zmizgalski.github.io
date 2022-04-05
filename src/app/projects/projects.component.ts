@@ -1,14 +1,12 @@
 import { Project } from './project.interface';
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-projects',
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.scss'],
 })
-export class ProjectsComponent implements OnInit {
-  constructor() {}
-
+export class ProjectsComponent {
   projects: Project[] = [
     {
       name: 'Level-Crossing-Python-Server',
@@ -91,6 +89,4 @@ export class ProjectsComponent implements OnInit {
       description: '',
     },
   ];
-
-  ngOnInit(): void {}
 }
