@@ -5,4 +5,12 @@ import { Component } from '@angular/core';
   templateUrl: './main-nav.component.html',
   styleUrls: ['./main-nav.component.scss'],
 })
-export class MainNavComponent {}
+export class MainNavComponent {
+  isLoading = true;
+
+  constructor() {
+    setTimeout(() => {
+      this.isLoading = false;
+    }, 1000);
+  }
+}

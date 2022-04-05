@@ -1,6 +1,4 @@
-import { LoaderService } from './loader-service.service';
-import { Component } from '@angular/core';
-import { Subject } from 'rxjs';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-loader',
@@ -8,6 +6,14 @@ import { Subject } from 'rxjs';
   styleUrls: ['./loader.component.scss'],
 })
 export class LoaderComponent {
-  isLoading: Subject<boolean> = this.loaderService.isLoading;
-  constructor(private loaderService: LoaderService) {}
+  private localHide = false;
+  @Output() showChange: EventEmitter<any> = new EventEmitter();
+
+  @Input() get show(): boolean {
+    return this.localHide;
+  }
+
+  public set show(value: boolean) {
+    this.localHide = value;
+  }
 }
