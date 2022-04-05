@@ -9,24 +9,32 @@
     background-size: cover;
     background-position: center center;
     background-image: url(../../assets/images/bg3.png);
-    align-items: baseline;
+    align-items: center;
     min-height: 100vh;
     justify-content: center;
-    margin-left: 10%;
     flex-direction: column;
     align-content: center;
+    .content {
+        align-self: baseline;
+        margin-left: 10%;
+        align-items: baseline;
+        justify-content: center;
+        flex-direction: column;
+        align-content: revert;
+        &__h2 {
+            font-size: 50px;
+            margin: 0;
+            color: $text-2;
+        }
+    
+        &__h3 {
+            font-size: large;
+            color: white;
+        }
+    }
   
 
-    &__h2 {
-        font-size: 50px;
-        margin: 0;
-        color: $text-2;
-    }
 
-    &__h3 {
-        font-size: large;
-        color: white;
-    }
 }
 
 .email-container{
