@@ -3,16 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MainNavComponent } from './main-nav/main-nav.component';
+import { HomeComponent } from './home/home.component';
+import { SideBarComponent } from './side-bar/side-bar.component';
+import { TooltipModule } from 'primeng/tooltip';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  declarations: [AppComponent, MainNavComponent, HomeComponent, SideBarComponent],
+  imports: [BrowserModule, TooltipModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
