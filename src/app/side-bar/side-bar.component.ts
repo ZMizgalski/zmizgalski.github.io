@@ -12,7 +12,6 @@ export class SideBarComponent implements OnInit {
 
   links: LinkModel[] = [
     { link: '/home', name: 'Home', outsideLink: false, icon: 'pi-home' },
-    { link: '/contact', name: 'Contact', outsideLink: false, icon: 'pi-phone' },
     { link: '/projects', name: 'Projects', outsideLink: false, icon: 'pi-folder' },
 
     { link: 'https://github.com/ZMizgalski', name: 'Github', outsideLink: true, icon: 'pi-github' },

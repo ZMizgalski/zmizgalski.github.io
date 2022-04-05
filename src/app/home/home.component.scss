@@ -23,3 +23,28 @@
         color: white;
     }
 }
+
+.email-container {
+    appearance:none;
+    padding:10px;
+    pointer-events: all;
+    border:none;
+    background-color: $text-1;
+    color:#fff;
+    font-weight:600;
+    border-radius:5px;
+    &__a {
+        pointer-events: all;
+        text-decoration: none;
+        transition: .5s cubic-bezier(0.79, 0.16, 0.4, 1.17);
+        color: white;
+    }
+    
+}
+
+.email-container {
+    &__a:hover {
+        color: black;
+    }
+}
+    
