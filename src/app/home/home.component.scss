@@ -17,24 +17,51 @@
     .content {
         align-self: baseline;
         margin-left: 10%;
+        display: flex;
+        flex-direction: column;
         align-items: baseline;
         justify-content: center;
         flex-direction: column;
         align-content: revert;
+        text-align: center;
+        
         &__h2 {
+            transition: all .5s;
             font-size: 50px;
             margin: 0;
+            font-size: 60px;
             color: $text-2;
         }
     
         &__h3 {
+            transition: all .5s;
             font-size: large;
+            font-size: 40px;
             color: white;
         }
     }
-  
+}
 
+@media only screen and (max-width: 600px) {
+  .email-container{
+    width: 150px !important;
+    height: 40px !important;
+    line-height: 30px !important;
+    font-size: 15px !important;
+  }
+  .content {
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 !important;
+    align-self: auto !important;
+    &__h2 {
+        font-size: 30px !important;
+    }
 
+    &__h3 {
+        font-size: 20px !important;
+    }
+  }
 }
 
 .email-container{

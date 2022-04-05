@@ -1,5 +1,5 @@
 import { LinkModel } from './linkModel.interface';
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -7,9 +7,7 @@ import { Router } from '@angular/router';
   templateUrl: './side-bar.component.html',
   styleUrls: ['./side-bar.component.scss'],
 })
-export class SideBarComponent implements OnInit {
-  constructor(private router: Router) {}
-
+export class SideBarComponent {
   links: LinkModel[] = [
     { link: '/home', name: 'Home', outsideLink: false, icon: 'pi-home' },
     { link: '/projects', name: 'Projects', outsideLink: false, icon: 'pi-folder' },
@@ -23,6 +21,8 @@ export class SideBarComponent implements OnInit {
     },
   ];
 
+  constructor(private router: Router) {}
+
   public makeRoute(link: LinkModel): void {
     if (link.outsideLink) {
       window.open(link.link, '_blank');
@@ -30,6 +30,4 @@ export class SideBarComponent implements OnInit {
       this.router.navigate([link.link]);
     }
   }
-
-  ngOnInit(): void {}
 }

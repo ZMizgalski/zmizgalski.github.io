@@ -10,6 +10,8 @@ import { TooltipModule } from 'primeng/tooltip';
 import { ProjectsComponent } from './projects/projects.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { LoaderComponent } from './loader/loader.component';
+import { SidebarModule } from 'primeng/sidebar';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,7 @@ import { LoaderComponent } from './loader/loader.component';
     NotFoundComponent,
     LoaderComponent,
   ],
-  imports: [BrowserModule, TooltipModule, AppRoutingModule],
+  imports: [BrowserModule, TooltipModule, AppRoutingModule, SidebarModule, BrowserAnimationsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
