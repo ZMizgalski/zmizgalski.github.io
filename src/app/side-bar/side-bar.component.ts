@@ -27,7 +27,7 @@ export class SideBarComponent {
     if (link.outsideLink) {
       window.open(link.link, '_blank');
     } else {
-      this.router.navigate([link.link]);
+      this.router.navigate([link.link], { skipLocationChange: true });
     }
   }
 }
