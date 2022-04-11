@@ -11,13 +11,24 @@ export class SideBarComponent {
   links: LinkModel[] = [
     { link: '/home', name: 'Home', outsideLink: false, icon: 'pi-home' },
     { link: '/projects', name: 'Projects', outsideLink: false, icon: 'pi-folder' },
-
     { link: 'https://github.com/ZMizgalski', name: 'Github', outsideLink: true, icon: 'pi-github' },
+    {
+      link: 'https://github.com/SoftDevPL',
+      name: 'Spigot github',
+      outsideLink: true,
+      icon: 'pi-github',
+    },
     {
       link: 'https://www.linkedin.com/in/zbigniew-mizgalski-951863236/',
       name: 'Linkedin',
       outsideLink: true,
       icon: 'pi-linkedin',
+    },
+    {
+      link: 'https://www.spigotmc.org/resources/authors/zibi.667650/',
+      name: 'Spigot',
+      outsideLink: true,
+      icon: 'pi-external-link',
     },
   ];
 
