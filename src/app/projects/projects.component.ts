@@ -9,6 +9,26 @@ import { Component } from '@angular/core';
 export class ProjectsComponent {
   projects: Project[] = [
     {
+      name: 'WatchTowerGui',
+      link: 'https://github.com/SoftDevPL/WatchTowerGui',
+      description: '',
+    },
+    {
+      name: 'LoginPrivacy',
+      link: 'https://github.com/SoftDevPL/Login_Privacy',
+      description: '',
+    },
+    {
+      name: 'CargoEconomy',
+      link: 'https://github.com/SoftDevPL/CargoEconomy',
+      description: '',
+    },
+    {
+      name: 'SimpleCommands',
+      link: 'https://github.com/SoftDevPL/SimpleCommands',
+      description: '',
+    },
+    {
       name: 'Level Crossing Python Server',
       link: 'https://github.com/ZMizgalski/Level-Crossing-Python-Server',
       description: '',
