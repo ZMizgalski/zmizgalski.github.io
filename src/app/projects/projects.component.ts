@@ -9,8 +9,28 @@ import { Component } from '@angular/core';
 export class ProjectsComponent {
   projects: Project[] = [
     {
-      name: 'WatchTowerGui',
-      link: 'https://github.com/SoftDevPL/WatchTowerGui',
+      name: 'Level Crossing Python Server',
+      link: 'https://github.com/ZMizgalski/Level-Crossing-Python-Server',
+      description: '',
+    },
+    {
+      name: 'Level Crossing Angular',
+      link: 'https://github.com/ZMizgalski/Level-Crossing-Angular',
+      description: '',
+    },
+    {
+      name: 'Level Crossing Python Client',
+      link: 'https://github.com/ZMizgalski/Level-Crossing-Python-Client',
+      description: '',
+    },
+    {
+      name: 'Can Sat Website',
+      link: 'https://github.com/ZMizgalski/Can-Sat-Website',
+      description: '',
+    },
+    {
+      name: 'Example Portfolio Website',
+      link: 'https://github.com/ZMizgalski/Example-Portfolio-Website',
       description: '',
     },
     {
@@ -24,23 +44,13 @@ export class ProjectsComponent {
       description: '',
     },
     {
+      name: 'WatchTowerGui',
+      link: 'https://github.com/SoftDevPL/WatchTowerGui',
+      description: '',
+    },
+    {
       name: 'SimpleCommands',
       link: 'https://github.com/SoftDevPL/SimpleCommands',
-      description: '',
-    },
-    {
-      name: 'Level Crossing Python Server',
-      link: 'https://github.com/ZMizgalski/Level-Crossing-Python-Server',
-      description: '',
-    },
-    {
-      name: 'Level Crossing Python Client',
-      link: 'https://github.com/ZMizgalski/Level-Crossing-Python-Client',
-      description: '',
-    },
-    {
-      name: 'Level Crossing Angular',
-      link: 'https://github.com/ZMizgalski/Level-Crossing-Angular',
       description: '',
     },
     {
@@ -84,18 +94,8 @@ export class ProjectsComponent {
       description: '',
     },
     {
-      name: 'Can Sat Website',
-      link: 'https://github.com/ZMizgalski/Can-Sat-Website',
-      description: '',
-    },
-    {
       name: 'Star Wars Example',
       link: 'https://github.com/ZMizgalski/Star-Wars-Example',
-      description: '',
-    },
-    {
-      name: 'Example Portfolio Website',
-      link: 'https://github.com/ZMizgalski/Example-Portfolio-Website',
       description: '',
     },
     {
