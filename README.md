@@ -1,26 +1,54 @@
-# PortfolioWebsite
+# Shop-Backend-Spring-Boot-Java
+> Basic shop backend made with Java 14 and Spring Boot.
+
+## Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Features](#features)
+* [Setup](#setup)
+* [Usage](#usage)
+* [Screenshots](#screenshots)
+* [Project Status](#project-status)
+* [Room for Improvement](#room-for-improvement)
+* [Contact](#contact)
+* [License](#license)
+
+## General Information
+- This project is a modified version of library back-end and was made to get my internship in [Andea](https://www.andea.com/). My task was to create a library orders and readers. I upgraded it a little bit because I added an admin panel when you can add your content dynamically.
+
+## Technologies Used
+- Angular
+- PrimeNG
+
+## Features
+List the ready features here:
+- Responsive design
+
+## Setup
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+## Usage
+1. Create a folder named you like.
+2. Inside your folder, open console and paste: git clone https://github.com/ZMizgalski/zmizgalski.github.io.git
+3. Then you are ready to go just open it in any Editor. (I prefer VSCode) [Download here](https://code.visualstudio.com/)
+
+# Screenshots
 
 ![alt text](https://github.com/ZMizgalski/zmizgalski.github.io/blob/main/imgs/1.png)
-
-# Projects page
-
 ![alt text](https://github.com/ZMizgalski/zmizgalski.github.io/blob/main/imgs/2.png)
-
-# Socials 
-
 ![alt text](https://github.com/ZMizgalski/zmizgalski.github.io/blob/main/imgs/3.png)
 ![alt text](https://github.com/ZMizgalski/zmizgalski.github.io/blob/main/imgs/4.png)
 ![alt text](https://github.com/ZMizgalski/zmizgalski.github.io/blob/main/imgs/5.png)
 ![alt text](https://github.com/ZMizgalski/zmizgalski.github.io/blob/main/imgs/6.png)
 
-# About
+## Project Status
+Project is:  _complete_ .
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
+## Room for Improvement
+- Design
 
-## Development server
+## Contact
+Created by [@zmizgalski](https://zmizgalski.github.io/) - feel free to contact me!
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## License
+This project is open source and available under the [... License](https://github.com/ZMizgalski/Shop-Backend-Spring-Boot-Java/blob/master/LICENSE).
