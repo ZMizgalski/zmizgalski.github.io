@@ -14,6 +14,11 @@ export class ProjectsComponent {
       description: '',
     },
     {
+      name: 'Level Crossing Python Client',
+      link: 'https://github.com/ZMizgalski/Level-Crossing-Python-Client',
+      description: '',
+    },
+    {
       name: 'Can Sat Website',
       link: 'https://github.com/ZMizgalski/Can-Sat-Website',
       description: '',
@@ -24,13 +29,13 @@ export class ProjectsComponent {
       description: '',
     },
     {
-      name: 'Level Crossing Python Server',
-      link: 'https://github.com/ZMizgalski/Level-Crossing-Python-Server',
+      name: 'Star Wars Example',
+      link: 'https://github.com/ZMizgalski/Star-Wars-Example',
       description: '',
     },
     {
-      name: 'Level Crossing Python Client',
-      link: 'https://github.com/ZMizgalski/Level-Crossing-Python-Client',
+      name: 'Level Crossing Python Server',
+      link: 'https://github.com/ZMizgalski/Level-Crossing-Python-Server',
       description: '',
     },
     {
@@ -51,6 +56,26 @@ export class ProjectsComponent {
     {
       name: 'SimpleCommands',
       link: 'https://github.com/SoftDevPL/SimpleCommands',
+      description: '',
+    },
+    {
+      name: 'Library Spring Boot Java',
+      link: 'https://github.com/ZMizgalski/Library-Spring-Boot-Java',
+      description: '',
+    },
+    {
+      name: 'Library Example Angular',
+      link: 'https://github.com/ZMizgalski/Library-Example-Angular',
+      description: '',
+    },
+    {
+      name: 'Example Data Share Angular',
+      link: 'https://github.com/ZMizgalski/Example-Data-Share-Angular',
+      description: '',
+    },
+    {
+      name: 'Example Data Share Spring Boot Java',
+      link: 'https://github.com/ZMizgalski/Example-Data-Share-Spring-Boot-Java',
       description: '',
     },
     {
@@ -79,33 +104,8 @@ export class ProjectsComponent {
       description: '',
     },
     {
-      name: 'Example Data Share Angular',
-      link: 'https://github.com/ZMizgalski/Example-Data-Share-Angular',
-      description: '',
-    },
-    {
       name: 'Example Data Share Spring Boot Java',
       link: 'https://github.com/ZMizgalski/Example-Data-Share-Spring-Boot-Java',
-      description: '',
-    },
-    {
-      name: 'Example Data Share Spring Boot Java',
-      link: 'https://github.com/ZMizgalski/Example-Data-Share-Spring-Boot-Java',
-      description: '',
-    },
-    {
-      name: 'Star Wars Example',
-      link: 'https://github.com/ZMizgalski/Star-Wars-Example',
-      description: '',
-    },
-    {
-      name: 'Library Spring Boot Java',
-      link: 'https://github.com/ZMizgalski/Library-Spring-Boot-Java',
-      description: '',
-    },
-    {
-      name: 'Library Example Angular',
-      link: 'https://github.com/ZMizgalski/Library-Example-Angular',
       description: '',
     },
   ];
