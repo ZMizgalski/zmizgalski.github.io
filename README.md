@@ -1,11 +1,19 @@
 # PortfolioWebsite
 
 ![alt text](https://github.com/ZMizgalski/zmizgalski.github.io/blob/main/imgs/1.png)
+
+# Projects page
+
 ![alt text](https://github.com/ZMizgalski/zmizgalski.github.io/blob/main/imgs/2.png)
+
+# Socials 
+
 ![alt text](https://github.com/ZMizgalski/zmizgalski.github.io/blob/main/imgs/3.png)
 ![alt text](https://github.com/ZMizgalski/zmizgalski.github.io/blob/main/imgs/4.png)
 ![alt text](https://github.com/ZMizgalski/zmizgalski.github.io/blob/main/imgs/5.png)
 ![alt text](https://github.com/ZMizgalski/zmizgalski.github.io/blob/main/imgs/6.png)
+
+# About
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
 
