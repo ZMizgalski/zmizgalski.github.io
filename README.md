@@ -1,5 +1,5 @@
-# Shop-Backend-Spring-Boot-Java
-> Basic shop backend made with Java 14 and Spring Boot.
+# zmizgalski.github.io
+> Portfolio website made with Angular
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -14,7 +14,7 @@
 * [License](#license)
 
 ## General Information
-- This project is a modified version of library back-end and was made to get my internship in [Andea](https://www.andea.com/). My task was to create a library orders and readers. I upgraded it a little bit because I added an admin panel when you can add your content dynamically.
+- This project was made to show all my work.
 
 ## Technologies Used
 - Angular
@@ -25,11 +25,12 @@ List the ready features here:
 - Responsive design
 
 ## Setup
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Run `npm i`
+- Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Usage
 1. Create a folder named you like.
-2. Inside your folder, open console and paste: git clone https://github.com/ZMizgalski/zmizgalski.github.io.git
+2. Inside your folder, open console and paste: `git clone https://github.com/ZMizgalski/zmizgalski.github.io.git`
 3. Then you are ready to go just open it in any Editor. (I prefer VSCode) [Download here](https://code.visualstudio.com/)
 
 # Screenshots
