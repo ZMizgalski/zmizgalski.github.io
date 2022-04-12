@@ -9,18 +9,8 @@ import { Component } from '@angular/core';
 export class ProjectsComponent {
   projects: Project[] = [
     {
-      name: 'Level Crossing Python Server',
-      link: 'https://github.com/ZMizgalski/Level-Crossing-Python-Server',
-      description: '',
-    },
-    {
       name: 'Level Crossing Angular',
       link: 'https://github.com/ZMizgalski/Level-Crossing-Angular',
-      description: '',
-    },
-    {
-      name: 'Level Crossing Python Client',
-      link: 'https://github.com/ZMizgalski/Level-Crossing-Python-Client',
       description: '',
     },
     {
@@ -31,6 +21,16 @@ export class ProjectsComponent {
     {
       name: 'Example Portfolio Website',
       link: 'https://github.com/ZMizgalski/Example-Portfolio-Website',
+      description: '',
+    },
+    {
+      name: 'Level Crossing Python Server',
+      link: 'https://github.com/ZMizgalski/Level-Crossing-Python-Server',
+      description: '',
+    },
+    {
+      name: 'Level Crossing Python Client',
+      link: 'https://github.com/ZMizgalski/Level-Crossing-Python-Client',
       description: '',
     },
     {
