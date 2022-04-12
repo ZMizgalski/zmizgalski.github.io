@@ -8,7 +8,7 @@
 
 # Socials 
 
-<!-- ![alt text](https://github.com/ZMizgalski/zmizgalski.github.io/blob/main/imgs/3.png) -->
+![alt text](https://github.com/ZMizgalski/zmizgalski.github.io/blob/main/imgs/3.png)
 ![alt text](https://github.com/ZMizgalski/zmizgalski.github.io/blob/main/imgs/4.png)
 ![alt text](https://github.com/ZMizgalski/zmizgalski.github.io/blob/main/imgs/5.png)
 ![alt text](https://github.com/ZMizgalski/zmizgalski.github.io/blob/main/imgs/6.png)
