@@ -24,7 +24,7 @@ export class ProjectsComponent {
       description: '',
     },
     {
-      name: 'Coding_da_Vinci_FrontEnd',
+      name: 'Coding da Vinci FrontEnd',
       link: 'https://github.com/ZMizgalski/Coding_da_Vinci_FrontEnd',
       description: '',
     },
