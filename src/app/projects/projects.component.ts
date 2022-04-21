@@ -9,13 +9,23 @@ import { Component } from '@angular/core';
 export class ProjectsComponent {
   projects: Project[] = [
     {
+      name: 'Level Crossing Python Client',
+      link: 'https://github.com/ZMizgalski/Level-Crossing-Python-Client',
+      description: '',
+    },
+    {
       name: 'Level Crossing Angular',
       link: 'https://github.com/ZMizgalski/Level-Crossing-Angular',
       description: '',
     },
     {
-      name: 'Level Crossing Python Client',
-      link: 'https://github.com/ZMizgalski/Level-Crossing-Python-Client',
+      name: 'Coding da Vinci Backend',
+      link: 'https://github.com/ZMizgalski/Coding_da_Vinci_Backend',
+      description: '',
+    },
+    {
+      name: 'Coding_da_Vinci_FrontEnd',
+      link: 'https://github.com/ZMizgalski/Coding_da_Vinci_FrontEnd',
       description: '',
     },
     {
