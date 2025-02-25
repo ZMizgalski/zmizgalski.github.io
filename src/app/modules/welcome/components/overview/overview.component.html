@@ -27,7 +27,7 @@
     <div class="mt-15 grid divide-x divide-y divide-base-300 overflow-hidden shadow-xl rounded-3xl border border-base-300 grid-cols-1 md:grid-cols-2 xl:grid-cols-4 xl:divide-y-0">
         @for (overview of overviews; track $index) {
             <div
-                class="group bg-secondary/5 relative flex flex-col transition space-y-8 hover:z-[1] hover:shadow-2xl py-12 p-8"
+                class="group bg-secondary/5 relative flex flex-col transition gap-8 hover:z-[1] hover:shadow-2xl py-12 p-8"
                 (click)="scrollIntoView(overview.id)"
             >
                 <span>
@@ -37,7 +37,7 @@
                     />
                 </span>
 
-                <div class="h-full flex flex-col space-y-2">
+                <div class="h-full flex flex-col gap-2">
                     <h5 class="text-xl font-bold transition group-hover:text-secondary">{{ overview.header }}</h5>
 
                     <p class="text-base-content/70">{{ overview.description }}</p>
