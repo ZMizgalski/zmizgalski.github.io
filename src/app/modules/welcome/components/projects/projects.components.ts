@@ -30,7 +30,7 @@ export class ZMProjectsComponent {
         },
         {
             header: 'Service Templates',
-            description: 'It was created to automatically generate configuration files to streamline the creation of service templates such as Docker, CircleCI and other infrastructure-related files. The tool reduces manual effort by dynamically generating complete configuration files based on structured JSON input.',
+            description: 'It was created to automatically generate configuration files to streamline the creation of service templates such as Docker, CircleCI and other infrastructure-related files. The tool reduces manual effort by dynamically generating complete configuration files based on structured JSON input',
             image: '../../../../../assets/service-templates.webp',
             link: 'https://github.com/ZMizgalski/service-templates'
         },

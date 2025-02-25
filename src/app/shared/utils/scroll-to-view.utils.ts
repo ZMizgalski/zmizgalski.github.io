@@ -1,4 +1,4 @@
-export const scrollIntoView = (document: Document, options: ScrollIntoViewOptions = { behavior: 'smooth', block: 'center', inline: 'nearest' }) => (id: string) => {
+export const scrollIntoView = (document: Document, options: ScrollIntoViewOptions = { behavior: 'smooth' }) => (id: string) => {
     const element = document.querySelector(`#${id}`);
 
     if (!element) {
