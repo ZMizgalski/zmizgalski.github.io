@@ -1,59 +1,62 @@
-# ZmizgalskiGithubIo
+# Zbigniew Mizgalski Portfolio Website
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.8.
+## Overview
 
-## Development server
+This repository contains the source code for a personal portfolio website built with Angular 19. The website is designed to showcase professional experience, skills, and projects in a modern, responsive interface utilizing TailwindCSS and DaisyUI for styling.
 
-To start a local development server, run:
+## Technologies
 
-```bash
-ng serve
-```
+- **Angular 19**: Front-end framework providing robust application architecture
+- **TailwindCSS 4**: Utility-first CSS framework for custom design implementation
+- **DaisyUI**: Component library built on top of TailwindCSS
+- **TypedJS**: JavaScript library for text animation effects
+- **Angular Icons**: Icon libraries including Heroicons, Devicon, and Simple Icons
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Development Setup
 
-## Code scaffolding
+### Prerequisites
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- Node.js (Latest LTS version recommended)
+- npm or yarn package manager
 
-```bash
-ng generate component component-name
-```
+### Installation
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+1. Clone the repository:
+   ```
+   git clone https://github.com/zmizgalski/zmizgalski.github.io.git
+   cd zmizgalski.github.io
+   ```
 
-```bash
-ng generate --help
-```
+2. Install dependencies:
+   ```
+   yarn
+   ```
 
-## Building
+3. Start the development server:
+   ```
+   yarn serve
+   ```
 
-To build the project run:
+4. Navigate to `http://localhost:4200/` in your browser
 
-```bash
-ng build
-```
+## Available Scripts
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+- `npm start`: Starts the development server
+- `npm run build`: Builds the project for production
+- `npm run lint-fix`: Runs ESLint and automatically fixes issues where possible
 
-## Running unit tests
+## Deployment
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+This project is configured to be deployed on GitHub Pages. After building the application, the contents of the `dist` directory can be published to the `gh-pages` branch.
 
-```bash
-ng test
-```
+## Contributing
 
-## Running end-to-end tests
+Contributions, issues, and feature requests are welcome. Feel free to check the issues page if you want to contribute.
 
-For end-to-end (e2e) testing, run:
+## License
 
-```bash
-ng e2e
-```
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## Contact
 
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+For any inquiries or questions regarding this project, please open an issue on this repository.

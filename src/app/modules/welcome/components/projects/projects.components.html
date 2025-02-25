@@ -1,0 +1,43 @@
+<section>
+    <div class="mb-12 space-y-2 text-center">
+        <h2 class="text-3xl font-bold md:text-4xl mb-8">Main Projects</h2>
+
+        <p class="lg:mx-auto lg:w-6/12">Proficient in modern web technologies including Angular, TypeScript, and RxJS, with comprehensive knowledge of full-stack development practices</p>
+    </div>
+
+    <div class="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
+        @for (project of projects; track $index) {
+            <div class="group p-10 sm:p-8 rounded-3xl border bg-opacity-50 shadow-xl border-base-300 flex flex-col">
+                <div class="relative overflow-hidden rounded-xl md:h-70 h-70 lg:h-60 w-full border border-accent/15">
+                    @if (project.image; as image) {
+                        <img
+                            [ngSrc]="image"
+                            alt="art cover"
+                            fill="true"
+                            class="skeleton !rounded-xl object-cover object-top transition duration-300 group-hover:scale-105"
+                        />
+                    } @else {
+                        <div class="h-full w-full flex justify-center items-center bg-accent/5">
+                            <ng-icon
+                                class="text-3xl !text-accent"
+                                name="heroPhotoSolid"
+                            />
+                        </div>
+                    }
+                </div>
+
+                <div class="mt-6 relative">
+                    <h3 class="text-2xl font-semibold">{{ project.header }}</h3>
+
+                    <p class="mt-6 mb-8 text-base-content/70">{{ project.description }}</p>
+                </div>
+
+                <a
+                    class="btn btn-soft btn-accent mt-auto"
+                    target="_blank"
+                    [href]="project.link"
+                >Open</a>
+            </div>
+        }
+    </div>
+</section>

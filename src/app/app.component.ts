@@ -1,12 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
+
 @Component({
-  selector: 'app-root',
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+    selector: 'zm-root',
+    template: '<router-outlet/>',
+    imports: [ RouterOutlet ]
 })
-export class AppComponent {
-  title = 'zmizgalski.github.io';
-}
+export class AppComponent {}

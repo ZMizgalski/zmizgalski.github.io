@@ -1,0 +1,38 @@
+<section class="flex flex-col lg:flex-row justify-between gap-15 w-full">
+    <div class="flex flex-col items-start text-left md:w-2/3">
+        <ng-icon
+            class="text-3xl !text-secondary"
+            name="heroWrenchScrewdriverSolid"
+        />
+
+        <h2 class="my-8 text-2xl font-bold md:text-4xl">Experience</h2>
+
+        <p class="text-base-content/70">I am a graduate of an electronics technical school and achieved finalist status in a national technical Olympiad. I immediately started working as a Junior Angular Developer after graduating from high school. I then transitioned into cybersecurity to expand my expertise in security and technology</p>
+    </div>
+
+    <ul class="timeline timeline-snap-icon timeline-compact timeline-vertical w-full self-center">
+        @for (experience of experiences; track $index) {
+            <li>
+                @if (!$first) {
+                    <hr/>
+                }
+
+                <div class="timeline-middle flex">
+                    <ng-icon name="heroCheckCircleSolid" class="text-xl"/>
+                </div>
+
+                <div class="mb-10 timeline-end text-left">
+                    <time class="text-secondary font-medium">{{ experience.year }}</time>
+
+                    <div class="text-lg font-black text-accent">{{ experience.header }}</div>
+
+                    <span class="text-base-content/70">{{ experience.description }}</span>
+                </div>
+
+                @if (!$last) {
+                    <hr/>
+                }
+            </li>
+        }
+    </ul>
+</section>

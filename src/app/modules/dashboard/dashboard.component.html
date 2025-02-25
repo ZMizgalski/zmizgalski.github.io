@@ -1,0 +1,17 @@
+<div class="flex flex-col min-h-dvh select-none mb-20">
+    <zm-nav/>
+
+    <div
+        class="absolute inset-0 h-1/2 grid grid-cols-2 -space-x-52 opacity-20"
+        aria-hidden="true"
+    >
+        <div class="blur-[150px] h-60 bg-gradient-to-br from-secondary to-secondary"></div>
+        <div class="blur-[150px] h-30 bg-gradient-to-r from-secondary to-secondary"></div>
+    </div>
+
+    <div class="hero flex-auto">
+        <router-outlet/>
+    </div>
+</div>
+
+<zm-footer/>

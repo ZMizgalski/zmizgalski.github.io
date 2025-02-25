@@ -1,0 +1,29 @@
+<header class="flex justify-center items-center flex-col mt-40">
+    <div class="mb-4">
+        <h1 class="text-6xl md:text-7xl font-bold text-balance">
+            Hi, I'm
+            <span class="indicator text-secondary text-balance">
+                <span class="indicator-item badge badge-accent">
+                    <ng-icon name="heroHandRaisedSolid" />
+                </span>
+
+                Zbigniew
+            </span>
+        </h1>
+    </div>
+
+    <div class="mb-4 w-max">
+        <span id="typing-sub-header" class="text-xl"></span>
+    </div>
+
+    <div class="mt-30 flex flex-wrap justify-center items-center w-full sm:6/12 md:w-8/12 gap-10">
+        @for (technology of technologies; track $index) {
+            <div class="grayscale transition duration-200 hover:grayscale-0">
+                <ng-icon
+                    class="text-5xl"
+                    [svg]="technology"
+                />
+            </div>
+        }
+    </div>
+</header>
