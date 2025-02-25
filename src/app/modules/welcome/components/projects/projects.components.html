@@ -11,10 +11,10 @@
                 <div class="relative overflow-hidden rounded-xl md:h-70 h-70 lg:h-60 w-full border border-accent/15">
                     @if (project.image; as image) {
                         <img
-                            [ngSrc]="image"
-                            alt="art cover"
-                            fill="true"
                             class="skeleton !rounded-xl object-cover object-top transition duration-300 group-hover:scale-105"
+                            fill="true"
+                            [ngSrc]="image"
+                            [alt]="project.description"
                         />
                     } @else {
                         <div class="h-full w-full flex justify-center items-center bg-accent/5">
