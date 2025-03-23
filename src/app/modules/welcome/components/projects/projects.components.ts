@@ -39,6 +39,12 @@ export class ZMProjectsComponent {
             description: 'Developed an AI-powered railway safety system for a national infrastructure improvement competition that uses object detection technology to intelligently control crossing barriers. The solution connects to a central network and features a client application that manages Raspberry Pi-controlled servo mechanisms, enhancing both safety and efficiency at railroad crossings',
             image: '../../../../../assets/signalway.webp',
             link: 'https://github.com/ZMizgalski/Level-Crossing-Python-Client'
+        },
+        {
+            header: 'To-Do Application',
+            description: 'A modern task management web application combining Angular frontend with secure WebSocket-powered backend for real-time task updates. Featuring intuitive task creation, editing, and deletion in a clean interface. Security is paramount with comprehensive protections including CSRF tokens, input sanitization against XSS attacks, Content Security Policy enforcement, and rate limiting to prevent DoS attempts. The application\'s WebSocket architecture delivers instant task updates via dedicated background threads, ensuring responsive performance without blocking the main application thread.',
+            image: '../../../../../assets/to-do.webp',
+            link: 'https://github.com/ZMizgalski/To_Do_Application'
         }
     ];
 }

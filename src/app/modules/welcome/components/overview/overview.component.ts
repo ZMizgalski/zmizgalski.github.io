@@ -1,5 +1,6 @@
 import { DOCUMENT, NgOptimizedImage } from '@angular/common';
 import { ChangeDetectionStrategy, Component, inject, ViewEncapsulation } from '@angular/core';
+import { Router } from '@angular/router';
 
 import { OverviewModel } from '../../models/welcome.types';
 
@@ -51,5 +52,5 @@ export class ZMOverviewComponent {
         }
     ];
 
-    public readonly scrollIntoView = scrollIntoView(inject(DOCUMENT));
+    public readonly scrollIntoView = scrollIntoView(inject(DOCUMENT), inject(Router));
 }

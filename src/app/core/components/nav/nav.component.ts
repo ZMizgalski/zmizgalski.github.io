@@ -1,6 +1,7 @@
 import { animate, style, transition, trigger } from '@angular/animations';
 import { DOCUMENT } from '@angular/common';
 import { ChangeDetectionStrategy, Component, inject, signal, ViewEncapsulation } from '@angular/core';
+import { Router } from '@angular/router';
 
 import { NAV_LINKS } from '@core/utils';
 
@@ -47,7 +48,7 @@ export class ZMNavComponent {
 
     public readonly links = inject(NAV_LINKS, { optional: true });
 
-    public readonly scrollIntoView = scrollIntoView(inject(DOCUMENT));
+    public readonly scrollIntoView = scrollIntoView(inject(DOCUMENT), inject(Router));
 
     public toggle(): void {
         this.navOpened.update(state => !state);
