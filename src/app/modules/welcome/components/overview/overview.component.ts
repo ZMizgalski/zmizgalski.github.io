@@ -30,7 +30,7 @@ export class ZMOverviewComponent {
             icon: heroBookOpenSolid,
             header: 'Education',
             id: NavLinkSection.EDUCATION,
-            description: 'Currently pursuing a degree in Cybersecurity at AGH University of Science and Technology. Focused on developing secure, reliable, and scalable software solutions that set industry standards for quality'
+            description: 'Graduated with a BEng in Cybersecurity from AGH University of Krakow. Focused on developing secure, reliable, and scalable software.'
         },
         {
             icon: heroWrenchScrewdriverSolid,

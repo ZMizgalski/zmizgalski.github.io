@@ -14,16 +14,16 @@ export const routes: Routes = [
             {
                 path: 'welcome',
                 loadComponent: () => import('./welcome/welcome.component').then(c => c.ZMWelcomeComponent)
-            },
-            {
-                path: '404',
-                loadComponent: () => import('./not-found/not-found.component').then(c => c.ZMNotFoundComponent)
-            },
-            {
-                path: '**',
-                redirectTo: '404',
-                pathMatch: 'full'
             }
         ]
+    },
+    {
+        path: '404',
+        loadComponent: () => import('./not-found/not-found.component').then(c => c.ZMNotFoundComponent)
+    },
+    {
+        path: '**',
+        redirectTo: '404',
+        pathMatch: 'full'
     }
 ];

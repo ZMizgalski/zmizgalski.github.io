@@ -3,9 +3,18 @@ import { afterNextRender, ChangeDetectionStrategy, Component, OnDestroy, signal,
 import { NgIcon, provideIcons } from '@ng-icons/core';
 import { heroHandRaisedSolid } from '@ng-icons/heroicons/solid';
 import {
-    svglAngular, svglAzure, svglCss, svglDigitalocean, svglGit, svglGrafana,
-    svglHtml5, svglJavascript, svglJest, svglJwt, svglMetamask, svglPostgresql,
-    svglRaspberryPi, svglRxjs, svglSass, svglSentry, svglTailwindcss, svglTensorflow,
+    svglAngular, svglAzure, svglCss,
+    svglDart,
+    svglDigitalocean,
+    svglFlutter,
+    svglGit, svglGrafana,
+    svglHtml5, svglJavascript, svglJest, svglJwt, svglMetamask,
+    svglNestjs,
+    svglNodejs,
+    svglPostgresql,
+    svglRaspberryPi, svglRxjs, svglSass, svglSentry,
+    svglTailwindcss,
+    svglTensorflow,
     svglTypescript, svglZod
 } from '@ng-icons/svgl';
 
@@ -26,7 +35,8 @@ export class ZMHeroSectionComponent implements OnDestroy {
         svglGit, svglGrafana, svglHtml5, svglJavascript, svglJest,
         svglJwt, svglMetamask, svglPostgresql, svglRaspberryPi,
         svglRxjs, svglSentry, svglTailwindcss, svglTensorflow,
-        svglTypescript, svglZod
+        svglTypescript, svglZod, svglNodejs, svglNestjs,
+        svglFlutter, svglDart
     ];
 
     private readonly _subHeaderTyping = signal<Typed | null>(null);

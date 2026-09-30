@@ -23,12 +23,12 @@ import { heroBookOpenSolid, heroCheckCircleSolid } from '@ng-icons/heroicons/sol
 export class ZMEducationComponent {
     public readonly educations: EducationModel[] = [
         {
-            year: 'Oct 2022 - Present',
-            header: 'Cybersecurity Engineer',
-            description: 'AGH University of Science and Technology'
+            year: 'Oct 2022 - Jan 2026',
+            header: 'BEng in Cybersecurity',
+            description: 'AGH University of Krakow'
         },
         {
-            year: 'Jan 2014 - Apr 2018',
+            year: 'Sep 2018 - May 2022',
             header: 'Electronics technician',
             description: 'Upper Secondary School of Communications'
         }
